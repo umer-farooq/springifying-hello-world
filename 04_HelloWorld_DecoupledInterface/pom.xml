@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.javapassion.examples</groupId>
-	<artifactId>03_HelloWorld_Decoupled</artifactId>
+	<artifactId>04_HelloWorld_DecoupledInterface</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>03_HelloWorld_Decoupled</name>
+	<name>04_HelloWorld_DecoupledInterface</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
@@ -40,7 +40,7 @@
               <version>1.4.0</version>
               <executions>
                  <execution>
-                    <id>03_HelloWorld-execution</id>
+                    <id>04_HelloWorld-execution</id>
                     <phase>install</phase>
                     <goals>
                       <goal>java</goal>
@@ -48,7 +48,7 @@
                  </execution>
               </executions>
               <configuration>
-                 <mainClass>com.somethinlikecoding.spHelloWorld.HelloWorldDecoupled</mainClass>
+                 <mainClass>com.somethinlikecoding.spHelloWorld.HelloWorldDecoupledInterface</mainClass>
               </configuration>
           </plugin>
 		</plugins>
